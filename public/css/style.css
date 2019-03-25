@@ -1,0 +1,65 @@
+::-webkit-input-placeholder {
+    color: #CCC;
+}
+::-moz-placeholder {
+    color: #CCC;
+}
+:-ms-input-placeholder {
+    color: #CCC;
+}
+:-moz-placeholder {
+    color: #CCC;
+}
+/*.wrapper{*/
+    /*position: relative;*/
+
+    /*background-color: #c4af9c;*/
+    /*opacity: 0.99;*/
+    /*z-index: 1;*/
+
+/*}*/
+html {
+
+    height: 100%;
+}
+body{
+    position: relative;
+    margin: 0;
+
+    min-height: 100%;
+    font: 12px "Gotham Rounded Bold";
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+
+
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    .inner-wrap {
+        /*height: 380px;*/
+    }
+    /*.wrap .car-info .image-wrap img {*/
+        /*height: 100px;*/
+    /*}*/
+
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1200px;
+    }
+    .inner-wrap {
+        /*height: 715px;*/
+    }
+}
+@media screen and (min-width: 1960px) {
+    .inner-wrap {
+        /*height: 1130px;*/
+    }
+}
